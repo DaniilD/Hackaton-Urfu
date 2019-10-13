@@ -1,0 +1,152 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Secular+One|Six+Caps&display=swap');
+/*header, logo*/
+header{
+    background-color: #fff;
+}
+body, html{
+    background-color: #fff;
+}
+.header{
+    padding-top: 30px;
+    -webkit-box-shadow: 0px 7px 7px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 7px 7px 0px rgba(0,0,0,0.22);
+    box-shadow: 0px 7px 7px 0px rgba(0,0,0,0.22);
+}
+
+.logo{
+    text-align: center;
+    font-size: 35px;
+    
+}
+span{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+}
+.logo .funf{
+    font-family: 'Roboto Mono', monospace; 
+}
+
+.logo .drive{
+    font-family: 'Roboto Mono', monospace;
+    color:#7a7a7a;
+}
+.logo .F{
+    color:red;
+}
+
+.space{
+    margin-bottom: 15px;
+}
+.line{
+   font-family: 'Roboto Mono', monospace;
+   background-color: #7a7a7a;
+   padding-top:1px;
+   padding-bottom: 1px; 
+   color:white;
+   font-weight: 400;
+   font-size: 0.9rem;
+}
+
+
+/*cirlce*/
+.progress-ring__circle{
+    stroke-dasharray: 50 10;
+    stroke-dashoffset:  100;
+    transform-origin: center;
+    transform:rotate(-90deg);
+}
+/*main content*/
+.content{
+    margin-top:50px;
+    padding:10px 15px;
+    position: relative;
+    
+}
+
+.arrow-back{  
+display: inline-block;
+font-size: 20px;
+cursor: pointer;
+}
+h3{
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.folder{
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    text-align: center; 
+    max-width: 156px;
+    margin-top: 10px;
+}
+.folder-icon{
+    
+    display: inline-block;
+    font-size: 56px;
+    color:#fdefb2;
+}
+
+.file{
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    text-align: center; 
+    max-width: 156px;
+    height: 128px;
+    margin-top: 10px;
+}
+.file-icon{
+    
+    display: inline-block;
+    font-size: 56px;
+    color:#7a7a7a;
+}
+
+.title h3{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+form{
+    border:1px solid transparent;
+    text-align: center;
+    margin-top: 50%;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,.5);
+}
+
+
+.form_logo{
+    margin-top: 50px;
+}
+.form_submit{
+    font-family: 'Roboto Mono', monospace;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 48px;
+    padding: 12px 0;
+    background-color: #ffdb4d;
+    width:260px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.image{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+
